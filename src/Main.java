@@ -33,9 +33,9 @@ public class Main {
         var boxerOne = 78.2;
         var boxerTwo = 82.7;
         var boxersWeight = boxerOne + boxerTwo;
-        System.out.println("Общая масса двух боксеров " + boxersWeight + " кг");
+        System.out.println(boxersWeight);
         var differenceWeight = boxerTwo - boxerOne;
-        System.out.println("Разница между массами боксеров " + differenceWeight + " кг");
+        System.out.println(differenceWeight);
         var remainderDevision = boxerTwo % boxerOne;
         System.out.println(remainderDevision);
         var timeWork = 640;
